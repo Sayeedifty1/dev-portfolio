@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+/* header and navigation */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 248px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 58px;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    border-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 30px;
+
+    color: #FD6E0A;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    /* padding-left: 100px; */
+}
+
+/* banner design */
+.banner {
+    margin: 0px 252px;
+    display: flex;
+    align-items: center;
+}
+
+.sub {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+
+}
+
+.name {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.bio {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me */
+.about {
+    text-align: center;
+    color: #181818;
+    margin-top: 131px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 35px;
+    
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
