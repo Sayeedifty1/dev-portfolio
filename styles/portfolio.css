@@ -19,7 +19,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 248px;
+    padding: 51px 248px;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav li {
     border-radius: 5px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact {
@@ -71,6 +71,12 @@ nav li {
     margin: 0px 252px;
     display: flex;
     align-items: center;
+}
+.banner img{
+    /* margin-right: auto;
+    margin-left: 50%; */
+    /* place-content:; */
+    
 }
 
 .sub {
@@ -143,10 +149,9 @@ main {
 }
 
 /* what i do */
-.what-i-do {
+
+section{
     margin-top: 131px;
-
-
 }
 
 
@@ -190,4 +195,80 @@ margin-bottom: 20px;
 
     font-size: 16px;
     color: #757575;
+}
+/* resumer style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    font-weight: 700;
+font-size: 30px;
+color: #474747;
+margin-top: 30px;
+margin-bottom: 30px;
+
+
+}
+.resume-title{
+    font-weight: 700;
+font-size: 30px;
+
+}
+.resume .title{
+    font-weight: 700;
+font-size: 30px;
+color: #474747;
+color: #474747;
+
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.resume .descriptiom{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact section design */
+.contact-section{
+    display: flex;
+    background: #FFF8F3;
+    gap: 117px;
+    padding: 130px 230px;
+
+}
+.contact-section .contact-title{
+    font-weight: 700;
+font-size: 35px;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 25px;
+
+}
+.contact-section a{ 
+    text-decoration: none;
+}
+.contact-section input[type="text"], input[type="email"] ,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+input{
+    height: 40px;
+    width: 461px;
+    
+}
+.contact-des{
+    color: #474747;
+    margin-bottom:30px;
 }
